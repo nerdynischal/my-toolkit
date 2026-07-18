@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Notion",
+    "category": "Main",
+    "icon": "N",
+    "iconPath": "/tool-icons/notion.svg",
+    "description": "A flexible workspace for project notes, briefs, databases, research, and design documentation.",
+    "url": "https://www.notion.com/"
+  },
+  {
+    "name": "Figma",
+    "category": "Main",
+    "icon": "Fg",
+    "iconPath": "/tool-icons/figma.svg",
+    "description": "The primary canvas for interface design, prototyping, component systems, and collaborative feedback.",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "name": "Visual Studio Code",
+    "category": "Main",
+    "icon": "VS",
+    "iconPath": "/tool-icons/visual-studio-code.svg",
+    "description": "A code editor for building, inspecting, and refining front-end prototypes and production interfaces.",
+    "url": "https://code.visualstudio.com/"
+  },
+  {
+    "name": "Codex",
+    "category": "Main",
+    "icon": "Cx",
+    "iconPath": "/tool-icons/codex-lobe.png",
+    "description": "An AI coding partner for implementing ideas, editing projects, and moving quickly from design intent to working software.",
+    "url": "https://openai.com/codex/"
+  },
+  {
+    "name": "Freeform",
+    "category": "Main",
+    "icon": "Fr",
+    "iconPath": "/tool-icons/freeform.png",
+    "description": "A freeform whiteboard for early sketches, visual thinking, loose systems mapping, and spatial brainstorming.",
+    "url": "https://apps.apple.com/us/app/freeform/id6443742539"
+  },
+  {
+    "name": "Obsidian",
+    "category": "Exploring",
+    "icon": "Ob",
+    "iconPath": "/tool-icons/obsidian.svg",
+    "description": "A local-first knowledge base for connected notes, references, reusable thinking, and long-term project memory.",
+    "url": "https://obsidian.md/"
+  },
+  {
+    "name": "Gemini Notebook",
+    "category": "Exploring",
+    "icon": "NL",
+    "iconPath": "/tool-icons/notebooklm.svg",
+    "description": "A research assistant for grounding questions, summaries, and synthesis in a specific set of source materials.",
+    "url": "https://notebooklm.google/"
+  },
+  {
+    "name": "Affinity",
+    "category": "Watchlist",
+    "icon": "Af",
+    "iconPath": "/tool-icons/affinity.svg",
+    "description": "A professional creative suite for visual design, image editing, illustration, and publication-ready assets.",
+    "url": "https://affinity.serif.com/"
+  },
+  {
+    "name": "Conductor",
+    "category": "Watchlist",
+    "icon": "Co",
+    "iconPath": "/tool-icons/conductor.svg",
+    "description": "A tool to watch for emerging AI-assisted design and development workflows.",
+    "url": "https://www.conductor.build/"
+  },
+  {
+    "name": "Paper",
+    "category": "Watchlist",
+    "icon": "Pa",
+    "iconPath": "/tool-icons/paper.svg",
+    "description": "A lightweight writing space for drafts, collaborative notes, and simple project documents.",
+    "url": "https://paper.dropbox.com/"
+  },
+  {
+    "name": "Cursor",
+    "category": "Obsolete",
+    "icon": "Cu",
+    "iconPath": "/tool-icons/cursor-light.svg",
+    "description": "An AI-native code editor previously used for rapid prototyping and codebase navigation.",
+    "url": "https://cursor.com/"
+  },
+  {
+    "name": "Claude",
+    "category": "Obsolete",
+    "icon": "Cl",
+    "iconPath": "/tool-icons/claude.svg",
+    "description": "An AI assistant previously used for writing, reasoning, summarizing, and exploring project directions.",
+    "url": "https://claude.ai/"
+  },
+  {
+    "name": "Adobe XD",
+    "category": "Obsolete",
+    "icon": "XD",
+    "iconPath": "/tool-icons/xd.svg",
+    "description": "A retired interface design and prototyping tool once used for screen layouts, flows, and handoff."
+  },
+  {
+    "name": "Adobe Creative Suite",
+    "category": "Obsolete",
+    "icon": "Ai",
+    "iconPath": "/tool-icons/adobe.svg",
+    "description": "A legacy creative suite for image editing, illustration, layout, motion, and production design work.",
+    "url": "https://www.adobe.com/creativecloud.html"
+  },
+  {
+    "name": "Framer",
+    "category": "Obsolete",
+    "icon": "Fm",
+    "iconPath": "/tool-icons/framer-light.svg",
+    "description": "A visual web design tool previously used for interactive websites, landing pages, and polished prototypes.",
+    "url": "https://www.framer.com/"
+  },
+  {
+    "name": "Sketch",
+    "category": "Obsolete",
+    "icon": "Sk",
+    "iconPath": "/tool-icons/sketch-uxwing.png",
+    "description": "A classic Mac design tool previously used for UI design, symbols, and static product screens.",
+    "url": "https://www.sketch.com/"
+  },
+  {
+    "name": "Miro",
+    "category": "Obsolete",
+    "icon": "Mi",
+    "iconPath": "/tool-icons/miro.svg",
+    "description": "A collaborative whiteboard previously used for workshops, diagrams, journey maps, and team ideation.",
+    "url": "https://miro.com/"
+  }
+]

@@ -1,0 +1,69 @@
+@media (max-width: 980px) {
+  .toolkit-shell {
+    --tile-min-width: var(--space-36);
+    --tile-min-height: var(--space-42);
+  }
+
+  .top-bar {
+    align-items: center;
+    flex-direction: row;
+    gap: var(--space-3);
+    padding: var(--space-4);
+  }
+
+  .top-bar-disclaimer {
+    white-space: normal;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-board {
+    border-right: 0;
+  }
+
+  .tool-grid {
+    grid-template-columns: repeat(auto-fill, minmax(var(--tile-min-width), 1fr));
+    grid-auto-rows: minmax(var(--tile-min-height), 1fr);
+  }
+
+  .detail-panel {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 10;
+    height: auto;
+    min-height: 54svh;
+    max-height: 86svh;
+    overflow: auto;
+    border-top: 1px solid var(--border-grid);
+    box-shadow: var(--shadow-drawer);
+    transform: translateY(calc(100% - var(--space-18)));
+    transition: transform var(--duration-drawer) var(--ease-drawer);
+  }
+
+  .detail-panel.is-open {
+    animation: none;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 560px) {
+  .toolkit-shell {
+    --tile-min-width: 0;
+    --tile-min-height: var(--space-42);
+  }
+
+  .tool-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .product-icon {
+    width: var(--space-14);
+    border-radius: var(--radius-md);
+  }
+
+  .tool-tile {
+    padding: var(--space-7) var(--space-3);
+  }
+}

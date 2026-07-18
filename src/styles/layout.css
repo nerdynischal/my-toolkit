@@ -1,0 +1,11 @@
+.toolkit-shell {
+  min-height: 100svh;
+  color: var(--text-primary);
+  background: var(--surface-page);
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(var(--panel-min-width), var(--panel-width));
+  min-height: calc(100svh - var(--space-14));
+}
