@@ -1,4 +1,5 @@
 import type { Tool } from '../toolkit'
+import { publicAssetPath } from '../asset-path'
 
 type ToolIconProps = {
   className: string
@@ -8,7 +9,7 @@ type ToolIconProps = {
 export function ToolIcon({ className, tool }: ToolIconProps) {
   return (
     <span className={className} aria-hidden="true">
-      {tool.iconPath ? <img src={tool.iconPath} alt="" /> : tool.icon}
+      {tool.iconPath ? <img src={publicAssetPath(tool.iconPath)} alt="" /> : tool.icon}
     </span>
   )
 }
