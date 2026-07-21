@@ -55,14 +55,14 @@
   --radius-pill: 999px;
 
   --font-sans:
-    Satoshi, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Geist Pixel", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   --font-weight-regular: 400;
   --font-weight-medium: 650;
   --font-weight-semibold: 700;
   --font-weight-bold: 760;
 
-  --text-chip: 12px;
+  --text-chip: 10px;
   --text-caption: 12px;
   --text-body: 16px;
   --text-tool-title: 20px;
