@@ -36,8 +36,11 @@
   color: var(--text-primary);
   cursor: pointer;
   font: inherit;
+  overflow: hidden;
   transition:
     background-color var(--duration-standard) var(--ease-out),
+    background-position var(--duration-standard) var(--ease-out),
+    color var(--duration-standard) var(--ease-out),
     box-shadow var(--duration-standard) var(--ease-out),
     transform var(--duration-fast) var(--ease-out);
 }
@@ -47,8 +50,56 @@
 }
 
 .tool-tile.is-selected {
-  background: var(--surface-selection);
-  box-shadow: inset 0 0 0 1px var(--border-selected);
+  color: var(--text-inverse);
+  background:
+    linear-gradient(125deg, rgba(252, 250, 245, 0.13) 0%, rgba(252, 250, 245, 0.045) 24%, transparent 45%),
+    radial-gradient(circle at 22% 0%, rgba(252, 250, 245, 0.1), transparent 34%),
+    rgba(16, 17, 17, 0.94);
+  background-size: 160% 100%, 100% 100%, 100% 100%;
+  backdrop-filter: blur(var(--space-2)) saturate(1.1);
+  box-shadow:
+    inset 0 0 0 1px rgba(252, 250, 245, 0.12),
+    inset 0 1px 0 rgba(252, 250, 245, 0.18),
+    inset 0 -1px 0 rgba(16, 17, 17, 0.42);
+}
+
+.tool-tile.is-selected::before {
+  content: "";
+  position: absolute;
+  inset: -45%;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    108deg,
+    transparent 30%,
+    rgba(252, 250, 245, 0.025) 38%,
+    rgba(252, 250, 245, 0.09) 48%,
+    rgba(252, 250, 245, 0.12) 52%,
+    rgba(252, 250, 245, 0.07) 60%,
+    transparent 72%
+  );
+  opacity: 0;
+  transform: translate(-64%, -8%);
+  animation: tile-shine-through var(--duration-shine) var(--ease-out) 80ms both;
+}
+
+.tool-tile.is-selected:hover {
+  background-position: 18% 0, 0 0, 0 0;
+}
+
+.tool-tile.is-selected > * {
+  position: relative;
+  z-index: 1;
+}
+
+.tool-tile.is-selected .tool-name {
+  color: var(--text-inverse);
+}
+
+.tool-tile.is-selected .category-chip {
+  border-color: rgba(252, 250, 245, 0.22);
+  color: rgba(252, 250, 245, 0.72);
+  background: rgba(252, 250, 245, 0.1);
 }
 
 .product-icon,
@@ -64,6 +115,11 @@
   font-weight: var(--font-weight-bold);
   line-height: 1;
   background: var(--surface-icon);
+}
+
+.tool-tile .product-icon {
+  border-color: rgba(16, 17, 17, 0.1);
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .product-icon img,
@@ -90,6 +146,23 @@
   font-weight: var(--font-weight-semibold);
   text-align: center;
   overflow-wrap: anywhere;
+}
+
+@keyframes tile-shine-through {
+  0% {
+    opacity: 0;
+    transform: translate(-64%, -8%);
+  }
+  28% {
+    opacity: 0.9;
+  }
+  68% {
+    opacity: 0.72;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(64%, 8%);
+  }
 }
 
 .category-chip {
