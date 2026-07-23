@@ -4,7 +4,7 @@
     "category": "Main",
     "icon": "N",
     "iconPath": "/tool-icons/notion.svg",
-    "description": "A flexible workspace for project notes, briefs, databases, research, and design documentation.",
+    "description": "This is where almost everything gets documented. There’s no fixed template—the structure depends heavily on the project. Some pages contain detailed timelines, while others are just a few paragraphs. At a minimum, you’ll usually find notes, to-dos, and project logs.",
     "url": "https://www.notion.com/"
   },
   {
@@ -12,7 +12,7 @@
     "category": "Main",
     "icon": "Fg",
     "iconPath": "/tool-icons/figma.svg",
-    "description": "The primary canvas for interface design, prototyping, component systems, and collaborative feedback.",
+    "description": "I haven’t used it much recently, but it used to be my go-to tool for wireframing and exploring design directions.",
     "url": "https://www.figma.com/"
   },
   {
@@ -20,7 +20,7 @@
     "category": "Main",
     "icon": "VS",
     "iconPath": "/tool-icons/visual-studio-code.svg",
-    "description": "A code editor for building, inspecting, and refining front-end prototypes and production interfaces.",
+    "description": "The dependable choice for anything code-related.",
     "url": "https://code.visualstudio.com/"
   },
   {
@@ -28,7 +28,7 @@
     "category": "Main",
     "icon": "Cx",
     "iconPath": "/tool-icons/codex-lobe.png",
-    "description": "An AI coding partner for implementing ideas, editing projects, and moving quickly from design intent to working software.",
+    "description": "Currently my favourite way to access everything AI.",
     "url": "https://openai.com/codex/"
   },
   {
@@ -36,7 +36,7 @@
     "category": "Main",
     "icon": "Fr",
     "iconPath": "/tool-icons/freeform.png",
-    "description": "A freeform whiteboard for early sketches, visual thinking, loose systems mapping, and spatial brainstorming.",
+    "description": "A highly underrated tool in the Apple ecosystem. It’s excellent for quickly sketching and exploring ideas during brainstorming sessions.",
     "url": "https://apps.apple.com/us/app/freeform/id6443742539"
   },
   {
@@ -44,7 +44,7 @@
     "category": "Exploring",
     "icon": "Ob",
     "iconPath": "/tool-icons/obsidian.svg",
-    "description": "A local-first knowledge base for connected notes, references, reusable thinking, and long-term project memory.",
+    "description": "Currently giving it a try for note-taking and writing-related tasks.",
     "url": "https://obsidian.md/"
   },
   {
@@ -52,7 +52,7 @@
     "category": "Exploring",
     "icon": "NL",
     "iconPath": "/tool-icons/notebooklm.svg",
-    "description": "A research assistant for grounding questions, summaries, and synthesis in a specific set of source materials.",
+    "description": "Experimenting with this as a tool for learning and research.",
     "url": "https://notebooklm.google/"
   },
   {
@@ -60,7 +60,7 @@
     "category": "Watchlist",
     "icon": "Af",
     "iconPath": "/tool-icons/affinity.svg",
-    "description": "A professional creative suite for visual design, image editing, illustration, and publication-ready assets.",
+    "description": "A particularly promising option for anything in the graphic design space.",
     "url": "https://affinity.serif.com/"
   },
   {
@@ -68,7 +68,7 @@
     "category": "Watchlist",
     "icon": "Co",
     "iconPath": "/tool-icons/conductor.svg",
-    "description": "A tool to watch for emerging AI-assisted design and development workflows.",
+    "description": "I’ve been hearing a lot about it on podcasts, so I may give it a try soon.",
     "url": "https://www.conductor.build/"
   },
   {
@@ -76,7 +76,7 @@
     "category": "Watchlist",
     "icon": "Pa",
     "iconPath": "/tool-icons/paper.svg",
-    "description": "A lightweight writing space for drafts, collaborative notes, and simple project documents.",
+    "description": "I discovered it through an interview, and it seems like it could suit my workflow. I still need to try it properly, but it looks promising.",
     "url": "https://paper.dropbox.com/"
   },
   {
@@ -84,7 +84,7 @@
     "category": "Obsolete",
     "icon": "Cu",
     "iconPath": "/tool-icons/cursor-light.svg",
-    "description": "An AI-native code editor previously used for rapid prototyping and codebase navigation.",
+    "description": "A great experience overall, but ultimately too expensive for me.",
     "url": "https://cursor.com/"
   },
   {
@@ -92,7 +92,7 @@
     "category": "Obsolete",
     "icon": "Cl",
     "iconPath": "/tool-icons/claude.svg",
-    "description": "An AI assistant previously used for writing, reasoning, summarizing, and exploring project directions.",
+    "description": "My go-to before my current go-to. Unfortunately, I burned through tokens far too quickly—and it only seemed to get worse.",
     "url": "https://claude.ai/"
   },
   {
@@ -100,14 +100,14 @@
     "category": "Obsolete",
     "icon": "XD",
     "iconPath": "/tool-icons/xd.svg",
-    "description": "A retired interface design and prototyping tool once used for screen layouts, flows, and handoff."
+    "description": "RIP. It was great while it lasted, and probably the time when I learned the most about design. Shout out to its smart animate feature :)"
   },
   {
     "name": "Adobe Creative Suite",
     "category": "Obsolete",
     "icon": "Ai",
     "iconPath": "/tool-icons/adobe.svg",
-    "description": "A legacy creative suite for image editing, illustration, layout, motion, and production design work.",
+    "description": "Glad I no longer need to rely on it.",
     "url": "https://www.adobe.com/creativecloud.html"
   },
   {
@@ -115,7 +115,7 @@
     "category": "Obsolete",
     "icon": "Fm",
     "iconPath": "/tool-icons/framer-light.svg",
-    "description": "A visual web design tool previously used for interactive websites, landing pages, and polished prototypes.",
+    "description": "I’m glad it has now established itself as a website-building tool. Before the current version, though, it was just confusing… if you know, you know.",
     "url": "https://www.framer.com/"
   },
   {
@@ -123,7 +123,7 @@
     "category": "Obsolete",
     "icon": "Sk",
     "iconPath": "/tool-icons/sketch-uxwing.png",
-    "description": "A classic Mac design tool previously used for UI design, symbols, and static product screens.",
+    "description": "My very first design tool, although I never connected with it in the same way I did with Adobe XD or Figma.",
     "url": "https://www.sketch.com/"
   },
   {
@@ -131,7 +131,7 @@
     "category": "Obsolete",
     "icon": "Mi",
     "iconPath": "/tool-icons/miro.svg",
-    "description": "A collaborative whiteboard previously used for workshops, diagrams, journey maps, and team ideation.",
+    "description": "A great tool, but its alternatives suited my workflow better.",
     "url": "https://miro.com/"
   }
 ]
